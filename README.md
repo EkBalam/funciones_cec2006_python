@@ -1,43 +1,11 @@
-# Ejercicio módulo de funciones números primos
-### El ejercicio
-- Escriba la función es_divisible(n, d) que indique si n es divisible por d:
-```sh
-  > es_divisible(15, 5)
-  > True
-  > es_divisible(15, 6)
-  > False
-```
+# Funciones del CEC206
+Durante los Congresos de Computación Evolutiva (Congress on Evolutionary Computation CEC) que se realizan cada año, existen competencias en las cuales los algoritmos de los participantes deben mostar obtener los mejores resultados optimizando problemas de diferentes caracteristicas, combinatoria, númericos, númericos con restricciones, etc.
 
-- Usando la función es_divisible, escriba una función es_primo(n) que determine si un número es primo o no:
-```sh
-  > es_primo(17)
-  > True
-  > es_primo(221)
-  > False
-```
+Durante el congreso del 2006 se presentaron 24 problemas para optimización de númerica con restricciones, la definición de estas funciones se encuentran en el archivo PDF.
 
-- Usando la función es_primo, escriba la función i_esimo_primo(i) que entregue el i-ésimo número primo.
-```sh
-  > i_esimo_primo(1)
-  > 2
-  > i_esimo_primo(20)
-  > 71
- ```
+Para este ejercicio debera implementar las **funciones objetivo** (no las restricciones) de los problemas del 1 al 19 y el problema 23.
 
-- Usando las funciones anteriores, escriba la función primeros_primos(m) que entregue una lista de los primeros m números primos:
- ```sh
-  > primeros_primos(10)
-  > [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
- ```
-
-- Usando las funciones anteriores, escriba la función primos_hasta(m) que entregue una lista de los primos menores o iguales que m:
-```sh
-  > primos_hasta(19)
-  > [2, 3, 5, 7, 11, 13, 17, 19]
-```
-
-- Cree un módulo llamado primos.py que contenga todas las funciones anteriores. Al ejecutar primos.py como un programa por sí solo, debe mostrar, a modo de prueba, los veinte primeros números primos. Al importarlo como un módulo, esto no debe ocurrir.
-
+NOTA: la funcion 23 tiene un error en la solución que se propone en el PDF lealo bien.
 
 ### Setup command
 `sudo -H pip3 install pytest`
